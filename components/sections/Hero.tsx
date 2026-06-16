@@ -14,7 +14,7 @@ export default function Hero() {
 
       {/* LEFT */}
       <div className="relative z-10 flex flex-col justify-center px-8 lg:px-12 lg:pl-[110px] py-14">
-        <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+        <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.25 }}>
           <span className="inline-flex items-center gap-2 bg-gold-pale border border-gold/30 rounded-full px-4 py-1.5 mb-5 w-fit">
             <span className="text-[11px] font-semibold text-gold tracking-wide">Handwriting Improvement &amp; Calligraphy Art</span>
           </span>
@@ -58,7 +58,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.3, delay: 0.2 }}
           className="relative w-[440px] max-w-full"
         >
           <video

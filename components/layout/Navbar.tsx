@@ -25,7 +25,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`sticky top-0 z-50 transition-shadow duration-300 border-b border-gold-pale ${
+      className={`sticky top-0 z-50 transition-shadow duration-150 border-b border-gold-pale ${
         scrolled ? 'shadow-soft' : ''
       }`}
       style={{ background: 'rgba(254,252,247,0.95)', backdropFilter: 'blur(16px)' }}

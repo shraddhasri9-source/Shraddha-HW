@@ -2,17 +2,17 @@ export const SITE = {
   name: 'Shraddha',
   fullName: 'Shraddha – Good & Neat Handwriting Institute',
   tagline: 'Good & Neat Handwriting Institute',
-  phone: '+91 98765 43210',
-  email: 'hello@shraddha.edu.in',
-  address: 'Hyderabad, Telangana – 500001',
-  whatsapp: '919876543210',
+  phone: '+91 8143444110, +91 9490937410',
+  email: 'shraddhasri9@gmail.com',
+  address: 'Address: 140- 40, plot no.204, Jawaharnagar colony, ECIL extension, Hyderabad 500040 ',
+  whatsapp: '+91 8143444110, +91 9490937410',
   url: 'https://shraddha.edu.in',
 }
 
 export const STATS = [
-  { num: '5000+', label: 'Students Trained' },
+  { num: '8000+', label: 'Students Trained' },
   { num: '30', label: 'Day Transformation' },
-  { num: '10+', label: 'Years Experience' },
+  { num: '15+', label: 'Years Experience' },
   { num: '98%', label: 'Visible Improvement' },
 ]
 
@@ -25,24 +25,27 @@ export type Program = {
   overview: string
   curriculum: { title: string; topics: string[] }[]
   benefits: string[]
+  transformations?: string[]
 }
 
 export const PROGRAMS: Program[] = [
   {
     slug: 'kids-handwriting',
     name: 'Kids Handwriting',
-    short: 'Neat, confident writing for school children ages 5–14.',
+    short: 'A strong foundation for neat, clear, and confident writing',
     category: 'handwriting',
     tagline: 'Fun, structured improvement that builds a lifelong skill.',
     overview:
-      'Help your child develop neat, confident, and beautiful handwriting through our engaging Kids Handwriting Program. Designed for young learners, this course focuses on proper letter formation, spacing, cursive writing, and presentation skills while improving concentration, fine motor skills, and writing speed. Through fun activities and guided practice, children build confidence in their schoolwork and learn lifelong writing habits that make every page look organized, clear, and impressive.',
+      'A strong foundation for neat, clear, and confident writing. Our Kids Handwriting Course is specially designed for children aged 4 to 6 years who are beginning to write print alphabets. Through fun and guided practice, children learn the right writing habits step by step.',
     curriculum: [
-      { title: 'Foundations', topics: ['Correct pencil grip', 'Posture & paper position', 'Basic strokes'] },
-      { title: 'Letter Mastery', topics: ['Lowercase formation', 'Uppercase formation', 'Number writing'] },
-      { title: 'Words & Spacing', topics: ['Letter spacing', 'Word spacing', 'Line alignment'] },
-      { title: 'Confidence', topics: ['Paragraph writing', 'Neatness under speed', 'Self-correction'] },
+      { title: 'Writing Readiness', topics: ['Children learn how to sit properly, hold the pencil correctly, and place the book in the right position for comfortable writing.'] },
+      { title: 'Basic Stroke Practice', topics: ['They practise standing lines, sleeping lines, curves, slants, and simple shapes to improve pencil control and hand movement.'] },
+      { title: 'Letter Formation', topics: ['Children learn to write capital and small print letters correctly in a four-line notebook with proper size and direction.'] },
+      { title: 'Spacing & Line Control', topics: ['They are trained to maintain correct letter spacing, word spacing, and line alignment for neat presentation.'] },
+      { title: 'Numbers & Simple Words', topics: ['Children practise number writing and simple words to build writing confidence and classroom readiness.'] },
+      { title: 'Neatness & Confidence', topics: ['Regular practice helps improve focus, patience, pencil control, and confidence, making every page clear, neat, and impressive.'] },
     ],
-    benefits: ['Legible, neat writing', 'Better grades for presentation', 'Improved focus & patience', 'Stronger confidence'],
+    benefits: ['Better pencil grip', 'Neat handwriting', 'Improved focus', 'Better presentation', 'Strong writing foundation'],
   },
   {
     slug: 'cursive-writing',
@@ -68,9 +71,12 @@ export const PROGRAMS: Program[] = [
     overview:
       'Enhance your personal and professional image with our Adult Handwriting & Signature Development Program. Designed for students, professionals, and business owners, this course helps improve handwriting clarity, consistency, speed, and overall presentation while also guiding you in creating a unique, elegant, and confident signature. Through personalized practice and proven techniques, participants develop a writing style that reflects professionalism, boosts confidence, and leaves a lasting impression in both academic and professional settings.',
     curriculum: [
-      { title: 'Reset & Refine', topics: ['Diagnosing habits', 'Letter reshaping', 'Consistency'] },
-      { title: 'Professional Hand', topics: ['Clean print style', 'Speed & legibility', 'Forms & notes'] },
-      { title: 'Signature Design', topics: ['Signature structure', 'Flourishes', 'Final styling'] },
+      { title: 'Handwriting Assessment & Foundation Building', topics: ['We begin by analyzing your current handwriting style, identifying habits that affect readability, spacing, alignment, and overall appearance. Personalized corrections are introduced to build a strong foundation for consistent and confident writing.'] },
+      { title: 'Letter Formation & Consistency Training', topics: ['Each letter is carefully refined to improve shape, proportion, and flow. Through guided practice, you\'ll develop uniform sizing, balanced spacing, and smoother strokes that make your handwriting look neat and professional.'] },
+      { title: 'Neat Adult Handwriting Development', topics: ['Learn a clean and mature handwriting style suitable for academic, personal, and professional use. The focus is on improving clarity, presentation, and comfort while maintaining your natural writing personality.'] },
+      { title: 'Speed Writing Without Losing Quality', topics: ['Develop techniques to write faster while preserving legibility and structure. Practical exercises help you create an efficient writing rhythm that works well for exams, note-taking, and everyday writing tasks.'] },
+      { title: 'Professional Writing Applications', topics: ['Apply your improved handwriting to real-world scenarios such as forms, journals, notes, assignments, and workplace documents. This stage focuses on making your handwriting consistently polished across different situations.'] },
+      { title: 'Signature Design & Personal Branding', topics: ['Create a distinctive signature that reflects your personality while remaining elegant and practical. You\'ll explore signature structure, stylistic elements, and finishing touches to develop a confident final design.'] },
     ],
     benefits: ['Polished professional writing', 'A standout signature', 'Clearer communication', 'More confidence'],
   },
@@ -83,9 +89,12 @@ export const PROGRAMS: Program[] = [
     overview:
       'Improve your writing speed, clarity, and presentation with our Speed & Exam Writing Program. Specially designed for students preparing for school, board, competitive, and entrance examinations, this course focuses on increasing writing speed without compromising neatness and readability. Through practical exercises, time-management techniques, and structured writing practice, students learn to complete exams efficiently, present answers effectively, and perform with greater confidence under time constraints.',
     curriculum: [
-      { title: 'Speed Foundations', topics: ['Efficient strokes', 'Hand stamina', 'Pacing'] },
-      { title: 'Exam Strategy', topics: ['Answer layout', 'Headings & spacing', 'Time management'] },
-      { title: 'Mock Practice', topics: ['Timed drills', 'Feedback rounds', 'Final polish'] },
+      { title: 'Speed Writing Foundations', topics: ['Build the core techniques required for faster handwriting without sacrificing readability. This stage focuses on efficient pen movement, smoother letter connections, improved hand stamina, and developing a natural writing rhythm that reduces fatigue during long writing sessions.'] },
+      { title: 'Writing Efficiency & Exam Performance', topics: ['Learn practical strategies to maximize writing output in academic and competitive exam settings. You\'ll practice structured answer presentation, effective use of headings and spacing, and techniques for maintaining speed while keeping your work neat, organized, and easy to evaluate.'] },
+      { title: 'Advanced Speed Development', topics: ['Strengthen your ability to write quickly under pressure through targeted exercises that improve consistency, flow, and control. Special attention is given to balancing speed and legibility so that faster writing never compromises clarity.'] },
+      { title: 'Timed Practice & Performance Training', topics: ['Apply your skills in realistic writing scenarios using timed drills and mock exercises. These sessions help identify bottlenecks, improve pacing, and build the confidence needed to perform effectively during exams and high-pressure writing tasks.'] },
+      { title: 'Personalized Feedback & Refinement', topics: ['Receive detailed feedback on handwriting speed, presentation, spacing, and overall efficiency. Corrections and targeted improvements help eliminate weak areas while reinforcing techniques that produce the best results.'] },
+      { title: 'Final Exam-Ready Polish', topics: ['Consolidate all skills into a streamlined writing system designed for maximum performance. By the end of the program, you\'ll have a faster, more consistent handwriting style that supports better time management and professional-looking exam answers.'] },
     ],
     benefits: ['Faster writing speed', 'Higher presentation marks', 'Less hand fatigue', 'Exam confidence'],
   },
@@ -140,6 +149,27 @@ export const TESTIMONIALS = [
   { img: '/avatar-1.png', name: "Kavya's Mother", course: 'Kids Handwriting', text: "My daughter's handwriting was unreadable. After 6 weeks, her teachers actually complimented her notebooks. Unbelievable change!" },
   { img: '/avatar-2.png', name: 'Rohan Mehta', course: 'Calligraphy Art', text: 'I joined calligraphy as a hobby and now make wedding invitations as a side business. The trainers are patient and genuinely skilled.' },
   { img: '/avatar-3.png', name: 'Dr. Anjali Sharma', course: 'Adult Handwriting', text: 'As a doctor, my handwriting was a running joke. Now my prescriptions are clear and my signature looks professional. Worth every rupee.' },
+]
+
+export const TRANSFORMATIONS = [
+  {
+    img: '/before-after-1.webp',
+    alt: 'Student handwriting before and after training - dramatic improvement in neatness',
+    name: 'Class 7 Student',
+    program: 'Kids Handwriting',
+  },
+  {
+    img: '/before-after-2.webp',
+    alt: 'Cursive handwriting transformation - messy to elegant flowing script',
+    name: 'Class 9 Student',
+    program: 'Cursive Handwriting',
+  },
+  {
+    img: '/before-after-3.webp',
+    alt: 'Speed writing improvement - neat and fast exam writing after training',
+    name: 'Class 10 Student',
+    program: 'Speed & Exam Writing',
+  },
 ]
 
 export const FAQS = [

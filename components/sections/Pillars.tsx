@@ -24,7 +24,7 @@ function CalligraphyIcon() {
 
 export default function Pillars() {
   const scrollTo = (id: string) =>
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    document.getElementById(id)?.scrollIntoView({ behavior: 'instant' as ScrollBehavior })
 
   return (
     <section className="py-16 px-6 lg:px-10 bg-cream">
@@ -44,7 +44,7 @@ export default function Pillars() {
             badgeBg="#EEF1FB"
             icon={<HandwritingIcon />}
             title="Handwriting Improvement"
-            subtitle="For kids, students & working adults"
+            subtitle="For kids, career aspirants & working adults"
             overview="Turn messy, rushed writing into neat, legible, confident handwriting. Ideal for school children and adults who want their everyday writing to look its best."
             features={[
               'Letter formation & spacing',
