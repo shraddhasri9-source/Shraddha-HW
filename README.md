@@ -10,4 +10,4 @@ This project is not an open-source project.
 Any misuse of this website or codebase will lead to immediate legal action.
 
 ## Maintenance
-This project is maintained by Shraddha Good & Neat Handwriting Institute.
+This project is maintained by Redlix Studio.
