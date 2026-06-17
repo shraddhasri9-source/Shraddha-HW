@@ -45,8 +45,8 @@ export default function Navbar() {
         {/* Separator after logo */}
         <div className="hidden md:block h-10 w-px bg-gold-pale mx-7 shrink-0" />
 
-        {/* Nav links — left aligned */}
-        <ul className="hidden md:flex gap-7 flex-1">
+        {/* Nav links — right aligned */}
+        <ul className="hidden md:flex gap-7 flex-1 justify-end">
           {NAV_LINKS.map((l) => (
             <li key={l.label}>
               <Link href={l.href} className="text-muted hover:text-gold text-[13px] font-medium transition-colors">
