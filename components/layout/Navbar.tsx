@@ -30,7 +30,7 @@ export default function Navbar() {
       }`}
       style={{ background: 'rgba(254,252,247,0.95)', backdropFilter: 'blur(16px)' }}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between md:justify-start gap-0">
+      <div className="w-full max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between md:justify-start gap-0">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 md:gap-3 shrink-0">
           <Image src="/logo-icon.png" alt="Shraddha logo" width={64} height={68} className="h-[52px] md:h-[68px] w-auto animate-fade-in" priority />
@@ -75,7 +75,7 @@ export default function Navbar() {
         {/* Animated Hamburger menu toggle */}
         <button 
           onClick={() => setOpen(!open)} 
-          className="md:hidden w-10 h-10 flex items-center justify-center relative border border-gold-pale/50 rounded-xl focus:outline-none bg-white shadow-sm"
+          className="md:hidden ml-auto w-10 h-10 flex items-center justify-center relative border border-gold-pale/50 rounded-xl focus:outline-none bg-white shadow-sm"
           aria-label="Toggle menu"
         >
           <div className="w-5 h-4 flex flex-col justify-between relative">
