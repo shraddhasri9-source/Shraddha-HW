@@ -157,9 +157,24 @@ export const PROGRAMS: Program[] = [
 ]
 
 export const TESTIMONIALS = [
-  { img: '/avatar-1.png', name: "Kavya's Mother", course: 'Kids Handwriting', text: "My daughter's handwriting was unreadable. After 6 weeks, her teachers actually complimented her notebooks. Unbelievable change!" },
-  { img: '/avatar-2.png', name: 'Rohan Mehta', course: 'Calligraphy Art', text: 'I joined calligraphy as a hobby and now make wedding invitations as a side business. The trainers are patient and genuinely skilled.' },
-  { img: '/avatar-3.png', name: 'Dr. Anjali Sharma', course: 'Adult Handwriting', text: 'As a doctor, my handwriting was a running joke. Now my prescriptions are clear and my signature looks professional. Worth every rupee.' },
+  {
+    img: '/avatar-1.png',
+    name: 'Uma Ravikanth Ankaraju',
+    course: 'Kids Handwriting',
+    text: "Excellent handwriting coaching from Shri Shraddha Srinivas Sir. Our daughter is studying in class 1. Her handwriting improved a lot with Sir's guidance over the month. He taught her with patience and attention to her mistakes and correcting them. Thank you very much Sir."
+  },
+  {
+    img: '/avatar-2.png',
+    name: 'Sai Durga Palaka',
+    course: 'Legible & Neat Handwriting',
+    text: "My 8-year-old son's handwriting underwent a remarkable transformation after taking the course. The content of the course was thoughtfully designed, and I noticed a significant improvement in his handwriting. I highly recommend this course to anyone looking to enhance their handwriting skills."
+  },
+  {
+    img: '/avatar-3.png',
+    name: 'Yashwanth Maloojula',
+    course: 'Legible & Neat Handwriting',
+    text: "We are from Dilshukhnagar and enrolled our child in Shraddha Handwriting Institute to improve her handwriting. The writing was previously messy and lacked proper spacing. The words were crowded, and the overall neatness was poor. We’ve observed a great improvement in spacing and overall neatness since starting the program. We appreciate the institute’s efforts in addressing these issues!"
+  },
 ]
 
 export const TRANSFORMATIONS = [
