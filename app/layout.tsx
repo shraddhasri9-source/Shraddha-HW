@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'Calligraphy Training',
     'Signature Styling',
   ],
-  metadataBase: new URL('https://shraddha.edu.in'),
+  metadataBase: new URL('https://www.cursivehandwriting.co.in/'),
   icons: { icon: '/favicon.png', apple: '/favicon.png' },
   openGraph: {
     type: 'website',
@@ -46,8 +46,8 @@ const localBusinessJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   'name': 'Shraddha – Good & Neat Handwriting Institute',
-  'image': 'https://shraddha.edu.in/logo-full.png',
-  'url': 'https://shraddha.edu.in',
+  'image': 'https://www.cursivehandwriting.co.in/logo-full.png',
+  'url': 'https://www.cursivehandwriting.co.in',
   'telephone': '+918143444110, +919490937410',
   'email': 'shraddhasri9@gmail.com',
   'address': {
